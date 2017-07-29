@@ -1,0 +1,17 @@
+{
+  "name": "pet-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "firebase use --add ionic2-angularfire-login-14ea3 && firebase deploy --only functions"
+  },
+  "author": "Rodrigo Real",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
