@@ -10,8 +10,14 @@
   "author": "Rodrigo Real",
   "license": "ISC",
   "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.3.0",
     "eslint-config-airbnb-base": "^11.3.1",
     "eslint-plugin-import": "^2.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
